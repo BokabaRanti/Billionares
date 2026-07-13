@@ -47,3 +47,7 @@ order by birthmonth asc;
 select birthmonth,count(personname) FROM billionares.money.billionaires_dataset
 group by birthmonth
 order by count(personname) desc;
+
+select birthmonth,count(personname) FROM billionares.money.billionaires_dataset
+group by birthmonth
+order by count(personname) asc;
